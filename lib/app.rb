@@ -8,8 +8,8 @@ $prompt = TTY::Prompt.new
 # password = prompt.mask("What is your password?")
 # p password
 
-def start
-    p "Welcome to our Application!!"
-    userInfo
-end
+# def start
+#     p "Welcome to our Application!!"
+#     userInfo
+# end
 

@@ -2,7 +2,9 @@ require "bundler/setup"
 require "sinatra/activerecord"
 Bundler.require
 require_all 'lib'
+require_all 'app/models'
 
-# ENV['SINATRA_ENV'] ||= 'development'
-
-# ActiveRecord::Base.establish_connection(ENV['SINATRA_ENV'].to_sym)
+ActiveRecord::Base.establish_connection(
+  adapter: 'sqlite3',
+  database: "db/module1.db"
+)
