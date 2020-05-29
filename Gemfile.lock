@@ -70,7 +70,7 @@ DEPENDENCIES
   rake
   require_all
   sinatra-activerecord
-  sqlite3 (~> 1.4)
+  sqlite3
   tty-prompt
 
 BUNDLED WITH
